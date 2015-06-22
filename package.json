@@ -1,7 +1,7 @@
 {
   "name": "ng-scroll-gluer",
   "version": "2.0.6",
-  "description": "An AngularJs directive that automatically scrolls to the bottom of an element on changes in it's scope",
+  "description": "An AngularJS directive that automatically scrolls to the bottom of an element on changes in it's scope",
   "main": "gulpfile.js",
   "directories": {
     "test": "test",
@@ -41,5 +41,5 @@
   "bugs": {
     "url": "https://github.com/stgogm/ng-scroll-glue/issues"
   },
-  "homepage": "https://github.com/stgogm/ng-scroll-glue#readme"
+  "homepage": "https://rawgit.com/stgogm/ng-scroll-glue/master/example/index.html"
 }

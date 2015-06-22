@@ -1,13 +1,13 @@
 /**
- * @name Angular Scroll Gluer
- * @type Angular JS Module
+ * @name AngularJS Scroll Glue
+ * @type AngularJS Module
  * @version 2.0.6
  * @author Santiago G. Marín <santiago@finaldevstudio.com>
  * @description An AngularJs directive that automatically scrolls to the bottom
  *   of an element on changes in it's scope. This is a fork of Lukas Wegmann's
  *   Angular Scroll Glue (https://github.com/Luegg/angularjs-scroll-glue).
  * @license MIT
- * @see https://github.com/stgogm/ng-scroll-gluer
+ * @see https://github.com/stgogm/ng-scroll-glue
  */
 
 (function (angular) {

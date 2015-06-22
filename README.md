@@ -1,4 +1,4 @@
-# ng-scroll-gluer [![Build Status](https://travis-ci.org/stgogm/ng-scroll-gluer.svg?branch=master)](https://travis-ci.org/stgogm/ng-scroll-gluer)
+# ng-scroll-glue [![Build Status](https://travis-ci.org/stgogm/ng-scroll-glue.svg?branch=master)](https://travis-ci.org/stgogm/ng-scroll-glue)
 
 An AngularJS directive that automatically scrolls to the bottom of an element on changes in its scope.
 
@@ -36,7 +36,7 @@ $ npm install --save ng-scroll-glue
 
 2. Import the directive into your Angular app:
 	```javascript
-	/* Add `ngScrollGluer` to your module's dependencies */
+	/* Add `ngScrollGlue` to your module's dependencies */
 	angular.module('App', [
 		//...
 		'ngScrollGlue'

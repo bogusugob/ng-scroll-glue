@@ -1,0 +1,25 @@
+{
+  "name": "ng-scroll-gluer",
+  "version": "2.0.6",
+  "homepage": "https://github.com/stgogm/ng-scroll-glue",
+  "authors": [
+    "Santiago G. Marín <santiago@finaldevstudio.com>",
+    "Lukas Wegmann"
+  ],
+  "description": "An AngularJs directive that automatically scrolls to the bottom of an element on changes in it's scope",
+  "main": "dist/scrollglue.js",
+  "keywords": [
+    "angular",
+    "module",
+    "scroll",
+    "glue"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

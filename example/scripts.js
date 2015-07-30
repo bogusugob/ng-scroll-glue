@@ -1,11 +1,11 @@
 (function (angular) {
   'use strict';
 
-  angular.module('example', [
+  angular.module('App', [
     'ngScrollGlue'
   ]).
 
-  controller('ItemsCtrl', [
+  controller('Main', [
     '$scope', '$timeout',
 
     function ItemsCtrl($scope, $timeout) {

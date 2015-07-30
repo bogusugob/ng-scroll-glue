@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Wed May 14 2014 13:15:37 GMT+0200 (CEST)
+// Generated on Thu Jul 30 2015 10:36:22 GMT-0300 (CLT)
 
 module.exports = function (config) {
   config.set({
@@ -10,31 +10,26 @@ module.exports = function (config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['mocha', 'chai'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      'test/lib/*.js',
-      'https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js',
-      'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js',
-      'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-mocks.js',
-      'src/*.js',
+      'https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js',
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js',
+      'https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-mocks.js',
+      'dist/ng-scroll-glue.min.js',
       'test/unit/*.spec.js'
     ],
 
 
     // list of files to exclude
-    exclude: [
-
-    ],
+    exclude: [],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-
-    },
+    preprocessors: {},
 
 
     // test results reporter to use
@@ -62,11 +57,11 @@ module.exports = function (config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false
-  });
-};
+  })
+}

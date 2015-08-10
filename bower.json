@@ -7,7 +7,7 @@
     "Lukas Wegmann"
   ],
   "description": "An AngularJs directive that automatically scrolls to the bottom of an element on changes in it's scope",
-  "main": "dist/scrollglue.js",
+  "main": "dist/ng-scroll-glue.js",
   "keywords": [
     "angular",
     "module",
@@ -16,10 +16,16 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
     "node_modules",
-    "bower_components",
+    "package.json",
+    ".travis.yml",
+    ".gitignore",
+    ".jshintrc",
+    "example",
+    "tests",
+    "*.log",
+    "*.js",
     "test",
-    "tests"
+    "src"
   ]
 }

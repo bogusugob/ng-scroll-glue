@@ -1,4 +1,4 @@
-# ng-scroll-glue [![Build Status](https://travis-ci.org/stgogm/ng-scroll-glue.svg?branch=master)](https://travis-ci.org/stgogm/ng-scroll-glue)
+# ng-scroll-glue [![Build Status](https://travis-ci.org/FinalDevStudio/ng-scroll-glue.svg?branch=master)](https://travis-ci.org/FinalDevStudio/ng-scroll-glue)
 
 An AngularJS directive that automatically scrolls to the bottom of an element on changes in its scope.
 
@@ -13,11 +13,6 @@ There's also a minified version available in the `dist` folder.
 ### Bower
 ```bash
 $ bower install --save ng-scroll-glue
-```
-
-### npm
-```bash
-$ npm install --save ng-scroll-glue
 ```
 
 ## Usage

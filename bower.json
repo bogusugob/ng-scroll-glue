@@ -23,7 +23,7 @@
   ],
   "license": "MIT",
   "ignore": [
-    "karma.confg.js",
+    "karma.conf.js",
     "node_modules",
     "package.json",
     "gulpfile.js",

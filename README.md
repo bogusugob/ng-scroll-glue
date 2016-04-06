@@ -60,4 +60,4 @@ $scope.glued = true;
 ```
 
 ## Example
-[Visit example page](https://rawgit.com/stgogm/ng-scroll-glue/master/example/index.html)
+[Visit example page](https://cdn.rawgit.com/FinalDevStudio/ng-scroll-glue/master/example/index.html)
